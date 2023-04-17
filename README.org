@@ -1,0 +1,22 @@
+#+title: Deal or No Deal
+#+author:Dylan Conklin
+
+* Overview
+
+This is a terminal version of the game show "Deal or No Deal".
+
+This game is for Unix-like OS's only, and features color output and a compact interface.
+
+* Installation
+
+The installation requires make and g++ (from the GNU Compiler Collection)
+
+Download the files, navigate to the directory, and type "make". Then move the resulting executable "deal" to somewhere in your path. Run by typing "deal".
+
+* How to Play
+
+There are 26 numbered cases, each containing a certain amount of money. First, you will select your case, which you will hold on to for the rest of the game.
+
+Then, you will select other cases to open (not the one you picked to be "your case"), and the money values in those cases will disappear from the board (you want to pick the lower values). Then, the banker will give you an offer, an you can accept their offer by saying "deal", or reject the offer by saying "no deal".
+
+If you make it to the end of the game without accepting the banker's offer, then you can choose to keep your case, or the last remaining case you didn't pick. You will then win the value in your final case.
